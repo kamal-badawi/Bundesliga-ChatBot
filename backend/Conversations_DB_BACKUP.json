@@ -1,0 +1,374 @@
+[
+    {
+        "user_id": "user_001",
+        "conversation_id": "BL2025-001",
+        "title": "Bundesliga 2024/25 - Allgemeines",
+        "dialog": [
+            {
+                "question": "Wann beginnt die Bundesliga-Saison 2024/25?",
+                "answer": "Die Saison startet am 23. August 2024."
+            },
+            {
+                "question": "Wie viele Teams nehmen an der Bundesliga 2024/25 teil?",
+                "answer": "Es nehmen wie gewohnt 18 Teams teil."
+            },
+            {
+                "question": "Welcher Verein ist aktueller Meister?",
+                "answer": "Bayern Muenchen ist Titelverteidiger."
+            },
+            {
+                "question": "Gibt es neue Trikotausruester?",
+                "answer": "Einige Vereine haben neue Ausruester, darunter Adidas, Nike und Puma."
+            }
+        ]
+    },
+    {
+        "user_id": "user_001",
+        "conversation_id": "BL2025-002",
+        "title": "Bundesliga 2024/25 - Spielmodus",
+        "dialog": [
+            {
+                "question": "Wie viele Spieltage hat die Saison?",
+                "answer": "Die Bundesliga hat insgesamt 34 Spieltage."
+            },
+            {
+                "question": "Gibt es Playoffs in der Bundesliga?",
+                "answer": "Nein, die Bundesliga wird im klassischen Ligasystem ohne Playoffs ausgespielt."
+            },
+            {
+                "question": "Wann ist die Winterpause?",
+                "answer": "Vom 22. Dezember 2024 bis 19. Januar 2025."
+            },
+            {
+                "question": "Wie funktioniert die Abstiegsregelung?",
+                "answer": "Die letzten zwei Teams steigen direkt ab, Platz 16 spielt Relegation."
+            }
+        ]
+    },
+    {
+        "user_id": "user_001",
+        "conversation_id": "BL2025-003",
+        "title": "Bundesliga 2024/25 - Transfers",
+        "dialog": [
+            {
+                "question": "Wer ist der teuerste Neuzugang der Saison?",
+                "answer": "Das ist derzeit noch nicht abschliessend geklaert, aber einige Top-Transfers liegen ueber 40 Mio. Euro."
+            },
+            {
+                "question": "Wann endet das Sommer-Transferfenster?",
+                "answer": "Am 2. September 2024."
+            },
+            {
+                "question": "Welcher Verein hat am meisten ausgegeben?",
+                "answer": "Bayern Muenchen und RB Leipzig waren wieder sehr aktiv."
+            },
+            {
+                "question": "Gibt es bedeutende Abgaenge?",
+                "answer": "Ja, einige Stars wechseln ins Ausland, besonders nach England und Spanien."
+            }
+        ]
+    },
+    {
+        "user_id": "user_001",
+        "conversation_id": "BL2025-004",
+        "title": "Bundesliga 2024/25 - Spielplan",
+        "dialog": [
+            {
+                "question": "Wo finde ich den Spielplan der Bundesliga?",
+                "answer": "Der Spielplan ist auf der offiziellen DFL-Website und in Fussball-Apps verfuegbar."
+            },
+            {
+                "question": "Gibt es Montagsspiele in der Saison 2024/25?",
+                "answer": "Nein, Montagsspiele wurden aus dem Spielplan gestrichen."
+            },
+            {
+                "question": "Wer sind die besten Torschuetzen bisher?",
+                "answer": "Das haengt vom aktuellen Stand ab, aber Spieler wie Harry Kane und Niclas Fuellkrug gehoeren zu den Favoriten."
+            },
+            {
+                "question": "Welcher Torwart hat die meisten Zu-Null-Spiele?",
+                "answer": "Meistens liegt Manuel Neuer oder Gregor Kobel weit vorn."
+            },
+            {
+                "question": "Wann ist das Derby Dortmund-Schalke?",
+                "answer": "Die genauen Termine stehen im Spielplan, meist im Herbst und Fruehjahr."
+            }
+        ]
+    },
+    {
+        "user_id": "user_001",
+        "conversation_id": "BL2025-006",
+        "title": "Bundesliga 2024/25 - Abstieg",
+        "dialog": [
+            {
+                "question": "Wie viele Teams steigen ab?",
+                "answer": "Zwei Teams steigen direkt ab, der Drittletzte spielt Relegation."
+            },
+            {
+                "question": "Was ist die Relegation?",
+                "answer": "Ein Duell zwischen dem 16. der Bundesliga und dem 3. der 2. Bundesliga."
+            },
+            {
+                "question": "Wie viele Spiele hat die Relegation?",
+                "answer": "Zwei Spiele (Hin- und Rueckspiel)."
+            },
+            {
+                "question": "Welche Vereine sind Abstiegskandidaten?",
+                "answer": "Oft sind neu aufgestiegene Teams und schwache Vorjahresmannschaften betroffen."
+            }
+        ]
+    },
+    {
+        "user_id": "user_001",
+        "conversation_id": "BL2025-007",
+        "title": "Bundesliga 2024/25 - Live-Uebertragungen",
+        "dialog": [
+            {
+                "question": "Wo kann ich Bundesliga live sehen?",
+                "answer": "Sky und DAZN zeigen die meisten Spiele live."
+            },
+            {
+                "question": "Welche Spiele zeigt DAZN?",
+                "answer": "DAZN zeigt die Freitags- und Sonntagsspiele."
+            },
+            {
+                "question": "Gibt es kostenlose Uebertragungen?",
+                "answer": "Einige Spiele sind bei Ran.de oder in Zusammenfassungen frei empfangbar."
+            },
+            {
+                "question": "Wer uebertraegt das Topspiel des Spieltags?",
+                "answer": "Sky zeigt meist das Samstagabend-Spiel."
+            }
+        ]
+    },
+    {
+        "user_id": "user_001",
+        "conversation_id": "BL2025-008",
+        "title": "Bundesliga 2024/25 - Topspieler",
+        "dialog": [
+            {
+                "question": "Wer sind die besten Torschuetzen bisher?",
+                "answer": "Das haengt vom aktuellen Stand ab, aber Spieler wie Harry Kane und Niclas Fuellkrug gehoeren zu den Favoriten."
+            },
+            {
+                "question": "Welcher Torwart hat die meisten Zu-Null-Spiele?",
+                "answer": "Meistens liegt Manuel Neuer oder Gregor Kobel weit vorn."
+            },
+            {
+                "question": "Wer ist der wertvollste Spieler?",
+                "answer": "Spieler wie Jamal Musiala und Florian Wirtz haben hohe Marktwerte."
+            },
+            {
+                "question": "Gibt es junge Talente zu beachten?",
+                "answer": "Ja, jedes Jahr kommen neue Talente aus den Nachwuchsleistungszentren."
+            }
+        ]
+    },
+    {
+        "user_id": "user_001",
+        "conversation_id": "BL2025-009",
+        "title": "Bundesliga 2024/25 - Regeln und Neuerungen",
+        "dialog": [
+            {
+                "question": "Gibt es neue Regeln zur Saison 2024/25?",
+                "answer": "Ja, unter anderem wird das Verhalten von Trainern strenger kontrolliert."
+            },
+            {
+                "question": "Wie funktioniert der VAR in der Bundesliga?",
+                "answer": "Der VAR greift bei klaren Fehlentscheidungen bei Toren, Elfmetern, Roten Karten und Spielerverwechslungen ein."
+            },
+            {
+                "question": "Wurde die Nachspielzeit angepasst?",
+                "answer": "Ja, es wird weiterhin genau nach tatsaechlich verlorener Zeit berechnet."
+            },
+            {
+                "question": "Duerfen Fans wieder Pyro benutzen?",
+                "answer": "Nein, Pyrotechnik bleibt verboten."
+            }
+        ]
+    },
+    {
+        "user_id": "user_001",
+        "conversation_id": "BL2025-010",
+        "title": "Bundesliga 2024/25 - Statistiken & Zahlen",
+        "dialog": [
+            {
+                "question": "Welche Mannschaft hat die beste Heimbilanz?",
+                "answer": "Das variiert, aber Bayern und Dortmund gehoeren oft zu den heimstaerksten Teams."
+            },
+            {
+                "question": "Wie viele Zuschauer besuchen ein Spiel im Schnitt?",
+                "answer": "Im Schnitt besuchen ca. 42.000 Fans die Spiele."
+            },
+            {
+                "question": "Welcher Club hat das groesste Stadion?",
+                "answer": "Borussia Dortmund mit dem Signal Iduna Park (ueber 81.000 Plaetze)."
+            },
+            {
+                "question": "Welches Spiel hatte die hoechste Zuschauerzahl?",
+                "answer": "Oft das Derby Dortmund-Schalke oder Bayern-Dortmund."
+            }
+        ]
+    },
+    {
+        "user_id": "user_001",
+        "conversation_id": "BL2025-011",
+        "title": "Bundesliga 2024/25 - Historisches",
+        "dialog": [
+            {
+                "question": "Welcher Verein hat die meisten Meisterschaften?",
+                "answer": "Bayern Muenchen mit ueber 30 Titeln."
+            },
+            {
+                "question": "Wer ist Rekordtorschuetze?",
+                "answer": "Gerd Mueller mit 365 Toren."
+            },
+            {
+                "question": "Welches Spiel war das torreichste?",
+                "answer": "Borussia Dortmund - SC Freiburg 11:1 (1994)."
+            },
+            {
+                "question": "Seit wann gibt es die Bundesliga?",
+                "answer": "Seit der Saison 1963/64."
+            }
+        ]
+    },
+    {
+        "user_id": "user_002",
+        "conversation_id": "BL2025-005",
+        "title": "Transfers & Neuzugaenge",
+        "dialog": [
+            {
+                "question": "Welche Top-Transfers gab es im Sommer 2024?",
+                "answer": "Top-Transfers sind u.a. Xavi Simons und Serhou Guirassy."
+            },
+            {
+                "question": "Wie viel Geld wurde fuer Transfers ausgegeben?",
+                "answer": "Insgesamt wurden ueber 600 Millionen Euro investiert."
+            },
+            {
+                "question": "Wer ist der teuerste Neuzugang?",
+                "answer": "Bisher ist Xavi Simons mit rund 45 Mio. Euro der teuerste Transfer."
+            },
+            {
+                "question": "Welcher Verein hat am meisten verdient?",
+                "answer": "RB Leipzig durch viele Verkaeufe von Talenten."
+            }
+        ]
+    },
+    {
+        "user_id": "user_003",
+        "conversation_id": "BL2025-012",
+        "title": "Spieler & Statistiken",
+        "dialog": [
+            {
+                "question": "Wer ist aktuell Top-Torschuetze?",
+                "answer": "Stand jetzt fuehrt Harry Kane die Torschuetzenliste an."
+            },
+            {
+                "question": "Wer hat die meisten Vorlagen gegeben?",
+                "answer": "Florian Wirtz liegt aktuell vorne bei den Assists."
+            },
+            {
+                "question": "Welcher Spieler hat die meisten Minuten gespielt?",
+                "answer": "Das ist oft ein Innenverteidiger oder Torwart, z.B. Ruediger oder Kobel."
+            },
+            {
+                "question": "Wer hat die meisten Karten gesammelt?",
+                "answer": "Defensive Mittelfeldspieler fuehren meist diese Statistik."
+            }
+        ]
+    },
+    {
+        "user_id": "user_004",
+        "conversation_id": "BL2025-013",
+        "title": "Schiedsrichter & VAR",
+        "dialog": [
+            {
+                "question": "Wie funktioniert der VAR in der Bundesliga?",
+                "answer": "Der VAR greift bei klaren Fehlentscheidungen bei Toren, Elfmetern, Roten Karten und Spielerverwechslungen ein."
+            },
+            {
+                "question": "Welche Situationen ueberprueft der VAR?",
+                "answer": "Nur bei 'klaren und offensichtlichen' Fehlern in vier Kategorien."
+            },
+            {
+                "question": "Kann der VAR Gelbe Karten zuruecknehmen?",
+                "answer": "Nein, nur bei Roten Karten oder falscher Identitaet."
+            },
+            {
+                "question": "Wer ist der beste Schiedsrichter?",
+                "answer": "Felix Brych und Deniz Aytekin gehoeren zu den Top-Unparteiischen."
+            }
+        ]
+    },
+    {
+        "user_id": "user_005",
+        "conversation_id": "BL2025-020",
+        "title": "Stadien & Zuschauer",
+        "dialog": [
+            {
+                "question": "Welches Stadion ist das groesste?",
+                "answer": "Das groesste Stadion ist der Signal Iduna Park in Dortmund mit ueber 81.000 Plaetzen."
+            },
+            {
+                "question": "Welcher Klub hat die hoechste Auslastung?",
+                "answer": "Meistens Borussia Dortmund oder Bayern Muenchen."
+            },
+            {
+                "question": "Wie bekommt man Tickets fuer Topspiele?",
+                "answer": "Ueber den offiziellen Vereinsverkauf, oft mit Mitgliedschaft."
+            },
+            {
+                "question": "Gibt es auch Stehplaetze?",
+                "answer": "Ja, besonders in Dortmund, Koeln und Frankfurt."
+            }
+        ]
+    },
+    {
+        "user_id": "user_001",
+        "conversation_id": "BL2025-023",
+        "title": "Trainer & Taktik",
+        "dialog": [
+            {
+                "question": "Wer ist der juengste Trainer in der Bundesliga?",
+                "answer": "Julian Nagelsmann war einst mit 28 der juengste, aktuell ist Matthias Jaissle einer der Juengsten."
+            },
+            {
+                "question": "Welche Formation ist am haeufigsten?",
+                "answer": "Das 4-2-3-1 ist weiterhin sehr beliebt."
+            },
+            {
+                "question": "Welche Teams setzen auf Pressing?",
+                "answer": "Leipzig, Leverkusen und Stuttgart sind dafuer bekannt."
+            },
+            {
+                "question": "Wer ist der laengstdienende Trainer?",
+                "answer": "Christian Streich beim SC Freiburg seit 2011."
+            }
+        ]
+    },
+    {
+        "user_id": "user_006",
+        "conversation_id": "BL2025-030",
+        "title": "Finanzen & Wirtschaft",
+        "dialog": [
+            {
+                "question": "Welcher Verein hat das hoechste Budget?",
+                "answer": "Bayern Muenchen mit ueber 500 Mio. Euro Umsatz."
+            },
+            {
+                "question": "Wie wichtig sind TV-Gelder?",
+                "answer": "Sehr wichtig, sie machen etwa 30% der Einnahmen aus."
+            },
+            {
+                "question": "Welche Sponsoren sind neu dabei?",
+                "answer": "Jedes Jahr kommen neue Sponsoren aus verschiedenen Branchen."
+            },
+            {
+                "question": "Wie hoch sind die Gehaelter der Spieler?",
+                "answer": "Top-Spieler verdienen ueber 15 Mio. Euro jaehrlich."
+            }
+        ]
+    }
+]

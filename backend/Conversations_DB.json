@@ -92,6 +92,10 @@
             {
                 "question": "Wann ist das Derby Dortmund-Schalke?",
                 "answer": "Die genauen Termine stehen im Spielplan, meist im Herbst und Fruehjahr."
+            },
+            {
+                "question": "wann spiel Bayern demnächst?",
+                "answer": "Das nächste Spiel von Bayern München findet am 2025-01-15 um 20:30 Uhr gegen TSG Hoffenheim statt.\n"
             }
         ]
     },
@@ -373,157 +377,13 @@
     },
     {
         "user_id": "user_001",
-        "conversation_id": "sr62J7Sv2vrW1vu20250613234756914GFknvzL4bChNyeW",
+        "conversation_id": "0trvhtaj0a0Mfjg20250614010144270Kg5o9uuayWRafEx",
         "title": "",
         "dialog": []
     },
     {
         "user_id": "user_001",
-        "conversation_id": "KNiAMcnHrNnTgKS20250613234756946D4myl3Dv0MLnLjp",
-        "title": "",
-        "dialog": []
-    },
-    {
-        "user_id": "user_001",
-        "conversation_id": "fECwGWUxF7H9VO620250613234808396LQvAvVm4B8z09DR",
-        "title": "",
-        "dialog": []
-    },
-    {
-        "user_id": "user_001",
-        "conversation_id": "pbxuUI0tAuUmGFU20250613234808415XDzMsufhowAZLqs",
-        "title": "",
-        "dialog": []
-    },
-    {
-        "user_id": "user_001",
-        "conversation_id": "1WmTra7S2Qi4FOc20250613234906757wMVCMYv954yvivf",
-        "title": "",
-        "dialog": []
-    },
-    {
-        "user_id": "user_001",
-        "conversation_id": "yZcoRyt4A4RXSa920250613234906774S9BVZLkqz4OUOJm",
-        "title": "",
-        "dialog": []
-    },
-    {
-        "user_id": "user_001",
-        "conversation_id": "s40QCbZ0fTj7ieq202506132349232972c859scwvjoq6ba",
-        "title": "",
-        "dialog": []
-    },
-    {
-        "user_id": "user_001",
-        "conversation_id": "lTtt9eZ9CPRx1Oq202506132349233067odXpmGjIK8C5Gc",
-        "title": "",
-        "dialog": []
-    },
-    {
-        "user_id": "user_001",
-        "conversation_id": "MlN5CIJbFoC7kJ420250613234938308Ii1ksuK3cfuJPlm",
-        "title": "",
-        "dialog": []
-    },
-    {
-        "user_id": "user_001",
-        "conversation_id": "57GZc44N4gCzefA20250613234938322NT3xUJnk9AorixA",
-        "title": "",
-        "dialog": []
-    },
-    {
-        "user_id": "user_001",
-        "conversation_id": "qP7DCm767F7rYE420250613234958308LMpTrl0v40iV5w4",
-        "title": "",
-        "dialog": []
-    },
-    {
-        "user_id": "user_001",
-        "conversation_id": "rwX18NGMYIZJvwv20250613234958348Dofk3aQ6YjvLzy5",
-        "title": "",
-        "dialog": []
-    },
-    {
-        "user_id": "user_001",
-        "conversation_id": "fJcqovhPAwLX8jP20250613235000032wiVgVLUVqmAxnww",
-        "title": "",
-        "dialog": []
-    },
-    {
-        "user_id": "user_001",
-        "conversation_id": "lz4NQYBkNS9tSSU20250613235000066SvaYRWvbUIr0VNs",
-        "title": "",
-        "dialog": []
-    },
-    {
-        "user_id": "user_001",
-        "conversation_id": "qIcGzHH66pi7TJ5202506132351363369NzaP9PfLbiYdlG",
-        "title": "",
-        "dialog": []
-    },
-    {
-        "user_id": "user_001",
-        "conversation_id": "eBu6kfo49aRZzKy20250613235136341yRYH2NYlmT2rCMu",
-        "title": "",
-        "dialog": []
-    },
-    {
-        "user_id": "user_001",
-        "conversation_id": "nHlBGcPKUOcGNJJ202506132351506449ZhnLqLetGlUkHy",
-        "title": "",
-        "dialog": []
-    },
-    {
-        "user_id": "user_001",
-        "conversation_id": "1ShNdwAdW3D7AEz20250613235150662LUbfyPcdth3ulkv",
-        "title": "",
-        "dialog": []
-    },
-    {
-        "user_id": "user_001",
-        "conversation_id": "9KOcUOnboIJ1E2z202506132354026665PqETahgwGhyEFR",
-        "title": "",
-        "dialog": []
-    },
-    {
-        "user_id": "user_001",
-        "conversation_id": "M81WFrRJhTd8Dgn20250613235402681oMcc3JKKsb13TfJ",
-        "title": "",
-        "dialog": []
-    },
-    {
-        "user_id": "user_001",
-        "conversation_id": "M0Io9roMM4OSy1K20250613235507790a96cMp3YQn7mijy",
-        "title": "",
-        "dialog": []
-    },
-    {
-        "user_id": "user_001",
-        "conversation_id": "LBzz0ocmeqYGM0U20250613235507798QPEk7XGzqNg7Me2",
-        "title": "",
-        "dialog": []
-    },
-    {
-        "user_id": "user_001",
-        "conversation_id": "mPzNGC2nuzq6oZE20250613235945259naeyttrIxHRQm0C",
-        "title": "",
-        "dialog": []
-    },
-    {
-        "user_id": "user_001",
-        "conversation_id": "FOdyDu5njxTbIn1202506132359453038lhO0XVEIT5HlqY",
-        "title": "",
-        "dialog": []
-    },
-    {
-        "user_id": "user_001",
-        "conversation_id": "1XIb7n79KQIyjQZ20250614000350786GDqxJ8OUrdg1Llu",
-        "title": "",
-        "dialog": []
-    },
-    {
-        "user_id": "user_001",
-        "conversation_id": "RfTTtYUYA4DUmbf20250614000350787Eu5XVbTzsmtW32A",
+        "conversation_id": "YTZg1JCuejauBir20250614010144273FNpdlcH4K1tJyS2",
         "title": "",
         "dialog": []
     }

@@ -4,18 +4,21 @@ interface BottomSectionProps {
   question: string;
   setQuestion: React.Dispatch<React.SetStateAction<string>>;
   isMenuOpening: boolean;
+  setIsAsking: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 const BottomSection: React.FC<BottomSectionProps> = ({
   question,
   setQuestion,
   isMenuOpening,
+  setIsAsking
 }) => {
   const [questionValue, setQuestionValue] = useState('');
 
   const handleSend = () => {
     setQuestion(questionValue);
     setQuestionValue('');
+    setIsAsking(true)
   };
   console.log('isMenuOpening: ',isMenuOpening)
 

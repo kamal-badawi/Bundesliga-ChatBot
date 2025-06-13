@@ -8,6 +8,7 @@ interface MenuSectionProps {
   searchTerm: string;
   setSearchTerm: React.Dispatch<React.SetStateAction<string>>;
   setConversationId: React.Dispatch<React.SetStateAction<string>>;
+  setIsNewChat: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 const MenuSection: React.FC<MenuSectionProps> = ({
@@ -17,8 +18,11 @@ const MenuSection: React.FC<MenuSectionProps> = ({
   searchTerm,
   setSearchTerm,
   setConversationId,
+  setIsNewChat
+  
 }) => {
   const openThisConversation = (id: string) => {
+    setIsNewChat(false);
     setConversationId(id);
   };
 
@@ -80,7 +84,9 @@ const MenuSection: React.FC<MenuSectionProps> = ({
             >
               <div
                 className="flex-1 truncate text-left"
-                onClick={() => openThisConversation(conv.conversation_id)}
+                onClick={() => 
+                  
+                  openThisConversation(conv.conversation_id)}
               >
                 {conv.title || 'Kein Titel'}
               </div>

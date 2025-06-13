@@ -21,37 +21,22 @@ const AppController = () => {
   const [showMenuSection, setShowMenuSection] = useState(false);
   const [isMenuOpening, setIsMenuOpening] = useState(false);
   const [fetchTitles, setFetchTitles] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [isNewChat, setIsNewChat] = useState(true);
+  const [isAsking, setIsAsking] = useState(false);
   const [conversationsTitles, setConversationsTitles] = useState<any[]>([]);
   const [filteredConversationsTitles, setFilteredConversationsTitles] = useState<any[]>([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState("");
+  console.log('isAsking: ',isAsking)
+
+  console.log('isNewChat: ',isNewChat)
   
 
   console.log('question:',question);
   console.log('answer: ',answer)
-  const fetchAnswer = async () => {
-    try {
-      const response = await axios.post('http://localhost:8000/question', {
-      question: question,
-    });
-    console.log('response:',response)
-
-      const answer = response.data.answer;
-
-      setAnswer(answer);
-    } catch (error: any) {
-      if (error.response && error.response.status === 404) {
-        console.error('Keine Antwort gefunden.');
-      } else {
-        console.error('Fehler beim Abrufen der Antwort:', error.message);
-      }
-    }
-  };
-
-   useEffect(() => {
-    fetchAnswer();
-  }, [question]);
+ 
 
   
 
@@ -96,8 +81,37 @@ const AppController = () => {
     );
   }, [searchTerm, conversationsTitles]);
 
- 
+ const fetchAnswer = async () => {
+  setLoading(true);
+  try {
+    const response = await axios.post('http://localhost:8000/question', {
+      question: question,
+    });
 
+    const answer = response.data.answer;
+    setAnswer(answer);
+  } catch (error: any) {
+    if (error.response && error.response.status === 404) {
+      console.error('Keine Antwort gefunden.');
+    } else {
+      console.error('Fehler beim Abrufen der Antwort:', error.message);
+    }
+  } finally {
+    setLoading(false);
+  }
+};
+
+
+  useEffect(()=>{
+    if(isAsking){
+      fetchAnswer();
+      setIsAsking(false);
+
+    }
+  },[question])
+
+
+  
   return (
   <div className="flex h-screen">
     {/* Sidebar */}
@@ -114,6 +128,7 @@ const AppController = () => {
           searchTerm={searchTerm}
           setSearchTerm={setSearchTerm}
           setConversationId={setConversationId}
+          setIsNewChat={setIsNewChat}
         />
       )}
     </div>
@@ -134,8 +149,8 @@ const AppController = () => {
 
       {/* Scrollable Content */}
       <div className="flex-1 overflow-y-auto">
-        <MiddleSection userId={userId} conversationId={conversationId} />
-        <BottomSection question={question} setQuestion={setQuestion} isMenuOpening={isMenuOpening} />
+        <MiddleSection userId={userId} conversationId={conversationId} isNewChat={isNewChat} />
+        <BottomSection question={question} setQuestion={setQuestion} isMenuOpening={isMenuOpening}  setIsAsking={setIsAsking} />
       </div>
 
      

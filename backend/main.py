@@ -39,8 +39,11 @@ app.add_middleware(CORSMiddleware,
                    allow_headers=['*'])
 
 
+class QuestionRequest(BaseModel):
+    question: str
+
 @app.post("/question")
-async def ask_question(question: str) -> dict:
+async def ask_question(request: QuestionRequest) -> dict:
     """
     Verarbeitet eine POST-Anfrage, um eine vom Benutzer gestellte Frage zu beantworten.
 
@@ -60,6 +63,7 @@ async def ask_question(question: str) -> dict:
     source = All_Data.get_all_data()
 
     # Antwort vom Chatbot
+    question = request.question
     response = get_chatbot_question_and_answer_gemini(source, information, question)
     answer = response.get("text")
     return {'answer':answer}
